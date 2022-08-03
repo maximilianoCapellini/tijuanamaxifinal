@@ -18,12 +18,13 @@ body .headerHome {
   body .headerHome .piePagina {
     background-color: orangered;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     list-style: none;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif; }
+    text-decoration: none; }
   body .headerHome h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     font-size: 8vw;
     border: 10px solid #060505;
     justify-content: center; }
@@ -38,14 +39,14 @@ body .headerHome {
     flex-flow: row wrap;
     justify-content: space-evenly; }
   body .headerHome li {
-    text-decoration: none;
-    list-style: none; }
+    list-style: none;
+    text-decoration: none; }
   body .headerHome a {
+    list-style: none;
     text-decoration: none;
     background-color: orange;
     color: black;
     text-align: center;
-    list-style: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 4vw;
     border-radius: 10px;
@@ -134,8 +135,8 @@ body header {
   background-color: orange; }
   body header .ubicacionPiePagina {
     background-color: red;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; }
   body header .absolutImagen {
     text-align: center; }
   body header .ubicacionTitulo {
@@ -160,6 +161,7 @@ body div .headerProducto {
     text-align: center; }
   body div .headerProducto .productosTitulo {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 5vw;
     border: 10px solid black; }
@@ -168,7 +170,8 @@ body div .headerProducto {
     justify-content: space-evenly;
     border: 3px solid black; }
     body div .headerProducto .container-fluid .navproductos {
-      text-align: center; }
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif; }
   body div .headerProducto .aperitivosProductos {
     text-align: center; }
   body div .headerProducto .imagenAperitivos {
@@ -216,6 +219,7 @@ body div .mainProductos {
     background-color: grey;
     font-size: 3vw;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     align-items: center;
     margin-top: 5px; }
   body div .mainProductos .contenedorProductosImg {
@@ -256,6 +260,7 @@ body .headerEventos {
   body .headerEventos .eventosPiePagina {
     background-color: red;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     align-items: center; }
   body .headerEventos .eventosTitulo {
     text-align: center;
