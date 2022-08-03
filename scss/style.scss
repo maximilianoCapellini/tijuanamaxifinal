@@ -6,6 +6,7 @@
 }
 @import "base/variables";
 @import"base/mixins";
+@import"base/extend";
 
 body{
     .headerHome{
@@ -48,12 +49,10 @@ body{
         a{
             @include decoration-text;
             background-color:$colorSecundario;
-            color: black;
             @include leter-type;
             font-size: 4vw;
-            border-radius:10px;
+            @extend %botones;
             overflow: hidden;
-            font-weight: bold;
         }
     }
     .seccionCentral{
@@ -106,7 +105,8 @@ body{
         a{
             text-decoration: none;
             color: black;
-            font-weight: bold;
+            font-size: bold;
+            
         }
     }
     @media screen and (max-width:600px){
@@ -135,7 +135,7 @@ body{
             background-color:$colorSecundario;
         }
         .menu{
-            background-color: black;
+            background-color:black;
         }
     }
     @media screen and (max-width:399px){

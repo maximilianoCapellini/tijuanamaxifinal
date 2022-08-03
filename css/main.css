@@ -5,6 +5,11 @@
   box-sizing: border-box; }
 
 /*agregando variables */
+body .headerHome a {
+  border-radius: 10px;
+  color: black;
+  font-weight: bold; }
+
 body .headerHome {
   display: grid;
   grid-template-columns: 7fr;
@@ -45,13 +50,10 @@ body .headerHome {
     list-style: none;
     text-decoration: none;
     background-color: orange;
-    color: black;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 4vw;
-    border-radius: 10px;
-    overflow: hidden;
-    font-weight: bold; }
+    overflow: hidden; }
 
 body .seccionCentral {
   display: grid;
@@ -98,7 +100,7 @@ body .footerHome {
   body .footerHome a {
     text-decoration: none;
     color: black;
-    font-weight: bold; }
+    font-size: bold; }
 
 @media screen and (max-width: 600px) {
   body .contendorHome .headerHome {
